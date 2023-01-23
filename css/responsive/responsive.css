@@ -1,0 +1,42 @@
+@media screen and (max-width:770px)
+{
+    .features-text h1{
+        font-size:32px;
+    }
+    .features{
+        flex-basis:100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+    }
+    .featurs-img img{
+        width:100%;
+       
+    }
+    .single-services{
+        flex-basis:100%;
+        margin:20px;  
+    }
+    .services-desc p{
+        font-size:18px;
+    }
+    .services-desc h3{
+        font-size:20px;
+    }
+    .hr{
+        margin:5px auto;
+    }
+    
+.single-services:hover .services-desc{
+    bottom:30%;
+
+}
+.testimonial-col{
+    flex-basis:100%;
+}
+
+#footer{
+    padding-top:350px;
+    text-align:center;
+}
+}
